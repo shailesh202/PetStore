@@ -1,0 +1,15 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="PetApiSuite">
+
+
+<listeners>
+   <listener class-name="com.petstore.utils.ExtentReportManager"/>
+</listeners>
+
+    <test name="PetApiTest">
+        <classes>
+            <class name="com.petstore.base.PetApiTest"/>
+        </classes>
+    </test>
+    
+</suite>
